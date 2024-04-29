@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+@font-face {
+  font-family: 'Heavitas';
+  src: url('../../assets/Fonts/Heavitas.ttf') format('truetype');
+}
+button{
+  cursor: pointer;
+}
+
+@media (max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

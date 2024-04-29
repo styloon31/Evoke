@@ -1,0 +1,122 @@
+.slider {
+    background-color: #fff;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .slide-track{
+    display: flex;
+    width: calc(250px*18);
+    animation: scroll 40s linear infinite;
+    
+  }
+  
+  @keyframes scroll{
+    0%{
+      transform: translateX(calc(-250px*9));
+    }
+    100%{
+      transform: translateX(0);;
+    }
+  }
+  
+  .slide{
+    height: 45px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+   
+  } 
+  .slide img{
+    width: 100%;
+  }
+  .slider::before,
+  .slider::after{
+   
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+    
+  }
+  
+  .slider::before{
+    left:0;
+    top:0;
+  }
+  
+  .slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  @media (max-width: 820px){
+    .slider {
+      background-color: #fff;
+      height: 100px;
+      margin: auto;
+      position: relative;
+      width: 100%;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+    
+    .slide-track{
+      display: flex;
+      width: calc(250px*18);
+      animation: scroll 40s linear infinite;
+      
+    }
+    
+    @keyframes scroll{
+      0%{
+        transform: translateX(calc(-250px*9));
+      }
+      100%{
+        transform: translateX(0);;
+      }
+    }
+    
+    .slide{
+      height: 45px;
+      width: 250px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      perspective: 100px;
+     
+    } 
+    .slide img{
+      width: 100%;
+    }
+    .slider::before,
+    .slider::after{
+     
+      content: '';
+      height: 100%;
+      position: absolute;
+      width: 15%;
+      z-index: 2;
+      
+    }
+    
+    .slider::before{
+      left:0;
+      top:0;
+    }
+    
+    .slider::after{
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg);
+    }
+  }

@@ -1,0 +1,240 @@
+/* ==================font=============== */
+@font-face {
+    font-family: 'Proximanova';
+    src: url('../../assets/Fonts/Fontspring-DEMO-proximanova-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Heavitas';
+    src: url('../../assets/Fonts/Heavitas.ttf') format('truetype');
+}
+
+.Change-Container{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Grid-Container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+.Grid-Item2 h3{
+    font-family: 'Proximanova';
+    font-size: 30px;
+    margin: 20px 0;
+}
+.Grid-Item2 h2{
+    font-family: 'Heavitas';
+    font-size: 60px;
+}
+.Grid-Item2 p{
+    font-family: 'Proximanova';
+    font-size: 25px;
+    margin: 20px 0;
+}
+.Grid-Item2 h4{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    font-size: 160px;
+    font-family: 'Proximanova';
+    margin: 20px 0;
+}
+.years{
+    display: flex;
+}
+.y-1{
+    margin-right: 15%;
+}
+.div-1{
+    display: flex;
+    background-color: #D9D9D9;
+    width: 562px;
+    height: 580px;
+}
+.div-2{
+    display: flex;
+    background-color: transparent;
+    border:1px solid #D9D9D9;
+    width: 562px;
+    height: 580px;
+    margin-top: -520px;
+    margin-left: 50px;
+}
+/* ----------------media query----------------- */
+@media (max-width: 1024px){
+    .Grid-Container{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .Grid-Item1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Grid-Item2 h3{
+        width: 100%;
+        font-family: 'Proximanova';
+        font-size: 30px;
+        margin: 20px 0;
+        justify-content: center;
+        align-items: center
+    }
+    .heading-3{
+        display: flex;
+        justify-content: center;
+    }
+    .heading-4{
+        display: flex;
+        justify-content: center;
+    }
+    .Grid-Item2 p{
+        font-family: 'Proximanova';
+        display: flex;
+        text-align: center;
+    }
+    .years{
+        display: flex;
+        justify-content: center;
+    }
+    .y-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .y-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .Grid-item1{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .div-2{
+        display: flex;
+        background-color: transparent;
+        border:1px solid #D9D9D9;
+        width: 562px;
+        height: 580px;
+        margin-top: 50px;
+        margin-left: -520px
+    }
+}
+@media (max-width: 820px){
+    .div-1{
+        display: flex;
+        background-color: #D9D9D9;
+        width: 562px;
+        height: 380px;
+    }
+    .div-2{
+        display: flex;
+        background-color: transparent;
+        border:1px solid #D9D9D9;
+        width: 562px;
+        height: 380px;
+        margin-top: 50px;
+        margin-left: -520px
+    }
+    .Grid-Item2 h3{
+        font-family: 'Proximanova';
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .Grid-Item2 h2{
+        font-family: 'Heavitas';
+        font-size: 45px;
+    }
+    .Grid-Item2 p{
+        font-family: 'Proximanova';
+        font-size: 20px;
+        margin: 20px 0;
+    }
+    .Grid-Item2 h4{
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px;
+        font-size: 160px;
+        font-family: 'Proximanova';
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 768px){
+    .div-1{
+        display: flex;
+        background-color: #D9D9D9;
+        width: 462px;
+        height: 280px;
+    }
+    .div-2{
+        display: flex;
+        background-color: transparent;
+        border:1px solid #D9D9D9;
+        width: 462px;
+        height: 280px;
+        margin-top: 50px;
+        margin-left: -420px
+    }
+    .Grid-Item2 h2{
+        font-family: 'Heavitas';
+        font-size: 45px;
+    }
+    .Grid-Item2 h4{
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px;
+        font-size: 100px;
+        font-family: 'Proximanova';
+        margin: 20px 0;
+    }
+}
+@media (max-width: 412px){
+    .Grid-Item2 h2{
+        font-family: 'Heavitas';
+        font-size: 25px;
+    }
+    .Grid-Item2 h4{
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px;
+        font-size: 100px;
+        font-family: 'Proximanova';
+        margin: 20px 0;
+    }
+    .Grid-Item2 p{
+        font-family: 'Proximanova';
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    .div-1{
+        display: flex;
+        background-color: #D9D9D9;
+        width: 262px;
+        height: 280px;
+    }
+    .div-2{
+        display: flex;
+        background-color: transparent;
+        border:1px solid #D9D9D9;
+        width: 262px;
+        height: 280px;
+        margin-top: 50px;
+        margin-left: -220px
+    }
+}

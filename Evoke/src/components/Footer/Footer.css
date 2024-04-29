@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../assets/Fonts/Gilroy-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rogue Sans';
+    src: url('../../assets/Fonts/Rogue_Sans_BoldItalic.ttf') format('truetype');
+}
+
+footer{
+    width: 100%;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.foot-grid{
+    display: grid;
+    width: 100%;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 80px;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Gilroy';
+}
+.foot-Evoke, .foot-services ,  .foot-contact, .foot-links, .foot-resources{
+    padding: 20px;
+}
+.foot-Evoke p{
+    margin: 20px 0;
+}
+.foot-Evoke h4{
+    margin: 40px 0;
+    font-weight:600;
+}
+
+.foot-links p , .foot-services p, .foot-resources p{
+    margin: 20px 0;
+}
+
+.foot-contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.ContactUs{
+    border-top:  1px solid white;
+    border-bottom: 1px solid white;
+    padding: 40px 0;
+}
+.bitstobug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.btb{
+    font-family: 'Rogue Sans';
+}
+/* ----------------media query----------------- */
+@media (max-width: 730px){
+    .foot-grid{
+        display: grid;
+        width: 100%;
+        padding: 20px;
+        grid-template-columns: 1fr 1fr  ;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 80px;
+        gap: 20px;
+        justify-content: center;
+        font-family: 'Gilroy';
+    }
+    .foot-contact{
+        display: none;
+    }
+}
+@media (max-width: 730px){
+    .ContactUs{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contactImg{
+        display: flex;
+        width: 300px;
+    }
+}
+@media (max-width: 430px){
+    .contactImg{
+        display: flex;
+        width: 150px;
+        height: 100%;
+    }
+    .contact-svg{
+        width: 20px;
+        height: 20px;
+    }
+}
