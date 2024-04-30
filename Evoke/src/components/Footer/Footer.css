@@ -49,9 +49,11 @@ footer{
     gap: 10px;
 }
 .ContactUs{
+    display: flex;
     border-top:  1px solid white;
     border-bottom: 1px solid white;
     padding: 40px 0;
+    justify-content: space-between;
 }
 .bitstobug{
     display: flex;
@@ -62,6 +64,9 @@ footer{
 }
 .btb{
     font-family: 'Rogue Sans';
+}
+.contact-svg{
+    height: 50px;
 }
 /* ----------------media query----------------- */
 @media (max-width: 730px){

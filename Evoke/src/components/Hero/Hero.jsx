@@ -3,6 +3,7 @@ import "./Hero.css"
 import {Reveal} from "../Reveal/Reveal"
 import { useSpring, animated } from '@react-spring/web';
 import salon from "../../assets/Videos/salon.mp4"
+import p1 from "../../assets/Images/p1.jpeg"
 const arrow = <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="rightarr">
 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
 </svg>
@@ -49,9 +50,7 @@ const Hero = () => {
                         <h2 className='re'>Reviews</h2>
 
                         <div className='review-heading'>
-                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="35" cy="35" r="35" fill="#D9D9D9"/>
-                            </svg>
+                            <img src={p1} alt='' className='img_test' />
                             <h3>Kristen Watson</h3>             
                         </div>
                         <p className='review-p'>“Thanks to the masters of the Hairy salon for creating an incredible hairstyle! You made my hair extremely soft, I recommend!”</p>

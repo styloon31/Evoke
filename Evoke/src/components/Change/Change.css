@@ -55,13 +55,16 @@
 }
 .div-1{
     display: flex;
-    background-color: #D9D9D9;
+    background: url('../../assets/Images/front.jpg');
+    background-size: cover;
     width: 562px;
     height: 580px;
+    z-index: 10;
 }
 .div-2{
     display: flex;
-    background-color: transparent;
+    background: url('../../assets/Images/front.jpg');
+    background-size: cover;
     border:1px solid #D9D9D9;
     width: 562px;
     height: 580px;

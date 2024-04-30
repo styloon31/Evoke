@@ -23,6 +23,7 @@
     height: 100%;
     position: absolute;
     z-index: -10;
+    opacity: 60%;
 }
 .hero{
     width: 100%;
@@ -137,6 +138,17 @@
     padding: 10px;
     border-radius: 100%;
     margin: 10px 15px;
+}
+.img_test{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.h3_t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* ----------------media query----------------- */
 @media (max-width: 1024px){
