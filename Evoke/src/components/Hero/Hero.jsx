@@ -51,7 +51,7 @@ const Hero = () => {
 
                         <div className='review-heading'>
                             <img src={p1} alt='' className='img_test' />
-                            <h3>Kristen Watson</h3>             
+                            <h3 className='h3_t'>Kristen Watson</h3>             
                         </div>
                         <p className='review-p'>“Thanks to the masters of the Hairy salon for creating an incredible hairstyle! You made my hair extremely soft, I recommend!”</p>
                         <div >
